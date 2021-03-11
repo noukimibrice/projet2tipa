@@ -1,0 +1,540 @@
+body{
+	font-family: montserrat
+}
+
+/*#bloc_page
+{
+	width: 80%;
+    margin: auto;
+}*/
+
+img{
+	width: 90px
+}
+
+header{
+	display: flex;
+	margin-left: 140px;
+	margin-top: 25px;
+}
+
+nav ol{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#lieu_hebergement{
+	margin-left: 140px;
+
+}
+
+#menu{
+	margin-top: -22px;
+	margin-left: 700px
+
+}
+
+#hebe, #acti, #sinc{
+	margin-right: 45px
+}
+
+
+#bloc_recherche{
+	margin-left: 140px;
+	display: flex;
+}
+
+#gps{
+	background: #f2f2f2;
+	width: 40px;
+	text-align: center;
+	height: 30px;
+	padding-top: 11px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	/*display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;*/
+}
+
+#recherche{
+	height: 40px;
+	font-weight: bold;
+}
+
+#envoyer{
+	height: 40px;
+	background-color: blue;
+	color: white;
+	margin-top: 16px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#filtres{
+	margin-left: 140px;
+	display: flex;
+	align-items: center;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	/*flex-direction: row;*/
+	margin-top: 22px;
+	margin-left: 20px;
+}
+
+#icone1, #economique, #icone2, #familial, #icone3, #romantique, #icone4, #animal{
+	margin-left: 30px;
+}
+
+#icone1, #economique{
+	margin-left: 15px;
+
+}
+
+#icone2, #familial{
+	margin-left: 15px
+}
+
+#icone3, #romantique{
+	margin-left: 15px
+}
+
+#icone4, #animal{
+	margin-left: 15px
+}
+
+#icone3{
+	margin-right: -5px
+}
+
+#icone1, #icone2, #icone3, #icone4{
+	background-color: #A3DAF5;
+	color: blue;
+	padding: 3px;
+	border-radius: 10px
+}
+
+#economique{
+	border: 2px black solid;
+	border-radius: 22px;
+	padding: 5px 5px 5px 55px;
+}
+
+#economique:hover{
+	background-color: #0065FC; 
+}
+
+#info
+{
+	display: flex;
+	align-items: center;
+	margin-left: 140px
+}
+#logoinfo
+{
+	height: 19px;
+	width: 18px;
+	font-size: xx-small;
+	color: #0065FC;
+	border-radius: 100%;
+	border: 1px #f2f2f2 solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	margin-right: 5px;
+}
+
+#bloc_gauche{
+	width: 720px;
+	/*height: 550px;*/
+	background-color: #f2f2f2;
+	border-radius: 18px;
+	margin-left: 140px;
+	height: 550px
+}
+
+
+
+section{
+	display: flex;
+}
+
+#conteneur{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 700px;
+	margin-left: 8px
+}
+
+.hebergement1{
+	width: 173px;
+	height: 153px;
+	background-color: white;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	min-width: 30%;
+
+}
+
+#image1
+{
+	background-image: url('images/yaounde/ch1.jpg');
+	background-position: center;
+	width: 95%;
+	height: 79px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 4px;
+}
+#image2
+{
+	background-image: url('images/yaounde/ch2.jpg');
+	background-position: center;
+	width: 95%;
+	height: 79px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 4px;
+}
+#image3
+{
+	background-image: url('images/yaounde/ch3.jpg');
+	background-position: center;
+	width: 95%;
+	height: 79px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 4px;
+}
+#image4
+{
+	background-image: url('images/yaounde/ch4.jpg');
+	background-position: center;
+	width: 95%;
+	height: 79px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 4px;
+}
+#image5
+{
+	background-image: url('images/yaounde/ch5.jpg');
+	background-position: center;
+	width: 95%;
+	height: 79px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 4px;
+}
+#image6
+{
+	background-image: url('images/yaounde/ch6.jpg');
+	background-position: center;
+	width: 95%;
+	height: 79px;
+	background-size: 100%;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	top: 4px;
+}
+
+.block
+{
+	padding-left: 15px;
+	line-height: 4px;
+	font-size: 13px
+}
+.star1{
+	font-size: xx-small;
+	color: blue;
+}
+
+.star2{
+	font-size: xx-small;
+	color: #cfcccc;
+}
+
+#afficher_plus{
+	margin-left: 20px;
+	padding: 20px;
+}
+
+#hebergement{
+	margin-left: 30px;
+	padding-top: 10px;
+}
+
+#populaire_bloc{
+	display: flex;
+	justify-content: space-around;
+}
+
+.hebergement2{
+	width: 13px;
+	height: 140px;
+	border-radius: 18px;
+	min-width: 60%;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 22px
+	/*margin-top: 11px*/
+}
+
+.block2
+{
+	padding-left: 15px;
+	line-height: 0.1px;
+	font-size: 13px
+}
+
+#photo1{
+	background-image: url('images/populaire/ch1.jpg');
+	background-size: 100%;
+	width: 95%;
+	height: 79px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	position: relative;
+	background-position: center;
+	margin: auto;
+}
+#photo2{
+	background-image: url('images/populaire/ch2.jpg');
+	background-size: 100%;
+	width: 95%;
+	height: 79px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	position: relative;
+	background-position: center;
+	margin: auto;
+}
+#photo3{
+	background-image: url('images/populaire/ch3.jpg');
+	background-size: 100%;
+	width: 95%;
+	height: 79px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	position: relative;
+	background-position: center;
+	margin: auto;
+}
+
+#bloc_droite{
+	width: 425px;
+	/*height: 550px;*/
+	background-color: #f2f2f2;
+	border-radius: 18px;
+	margin-left: 80px;
+	margin-top: 19px;
+	height: 550px
+}
+
+#activite_marseille{
+	margin-top: 44px;
+	margin-left: 150px;
+}
+
+#dernier_bloc{
+	width: 1220px;
+	height: 480px;
+	/*background-color: #f2f2f2;*/
+	margin-left: 140px;
+	margin-top: 25px
+}
+
+#conteneur3{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.grand_block{
+	width: 280px;
+	height: 440px;
+	min-width: 20%;
+	border-radius: 18px;
+	position: relative;
+	background-color: white;
+}
+
+#block_one{
+	width: 280px;
+	height: 150px;
+	/*margin: auto;*/
+	border-radius: 18px;
+	min-width: 20%;
+	margin-bottom: 110px
+}
+
+#block_two{
+	width: 280px;
+	/*height: 50px;*/
+	/*margin: auto;*/
+	border-radius: 18px;
+	min-width: 20%;
+	margin-bottom: 11px;
+	position: relative;
+}
+
+.texte1{
+	padding-bottom: -22px;
+	/*margin-left: 1px;*/
+	background-color: wheat;
+	padding: 11px;
+	width: 258px;
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+	/*position: absolute;*/
+	/*bottom: 0*/
+}
+.texte2{
+	padding-bottom: -22px;
+	/*margin-left: 1px;*/
+	background-color: wheat;
+	padding: 11px;
+	width: 258px;
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+	/*position: absolute;*/
+	/*bottom: 0*/
+}
+
+/*#picture1/*numerotation des images de la partie Activés à Marseille*/
+/*{
+	background-image: url(images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+	width: auto;
+	height: 270px;
+	background-size: cover;
+	object-fit: cover;
+	background-position:center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}*/
+
+#picture1{
+	background-image: url('images/yaounde/ch1.1.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: cover;
+	object-fit: cover;
+	/*width: 97%;*/
+	min-height: 380px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	/*margin: auto;*/
+}
+#picture2{
+	background-image: url('images/yaounde/ch2.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: cover;
+	object-fit: cover;
+	min-height: 120px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	/*width: 97%;*/
+}
+#picture3{
+	background-image: url('images/yaounde/ch3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	min-height: 120px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+}
+#picture4{
+	background-image: url('images/yaounde/ch4.1.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: cover;
+	object-fit: cover;
+	/*width: 97%;*/
+	min-height: 380px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	/*margin: auto;*/
+}
+#picture5{
+	background-image: url('images/yaounde/ch5.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: cover;
+	object-fit: cover;
+	min-height: 120px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	/*width: 97%;*/
+}
+#picture6{
+	background-image: url('images/yaounde/ch6.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: cover;
+	object-fit: cover;
+	min-height: 120px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	/*width: 97%;*/
+}
+
+#bas_page{
+	/*background-color: #f2f2f2;*/
+	display: flex;
+}
+
+
+.block4{
+	font-size: 17px;
+
+}
+footer{
+	/*display: flex;*/
+}
+
+#conteneur_global{
+	display: flex;
+	/*justify-content: space-around;*/
+	margin-left: 150px;
+	margin-top: 22px;
+	background-color: #f2f2f2;
+	width: 1190px;
+}
+
+.conteneur_bloc{
+	margin-left: 120px
+}
+
+#apropos, #nos_hebe, #assistance{
+	font-size: 17px;
+}

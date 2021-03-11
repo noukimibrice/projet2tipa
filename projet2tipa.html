@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    	<meta name="viewport" content="with=device-width, initial-scale=1"/>
+    	<link href="https://fr.allfont.net/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="projet2tipa.css" />
+        <link rel="stylesheet" type="text/css" href="images/fontawesome-free-5.15.2-web/css/all.css"/> <!--Lien pour insérer les icones-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
+        <title>Projet 2 tipa</title>
+    </head>
+
+    <body>
+        <div id="bloc_page">
+            <div id="entete">
+                <header>
+                    <div id="logo">
+                        <img src="images/logo.png" alt="logo du site" title="logo">                        
+                    </div>
+                    <nav>
+                        <div id="menu">
+                            <ol >
+                                <li><h4 id="hebe">Hébergements</h4></li>
+                                <li><h4 id="acti">Activité</h4></li>
+                                <li><h4 id="sinc">S'inscrire</h4></li>
+                            </ol>
+                        </div>
+                    </nav>
+                </header>
+                
+            </div>
+            <div id="lieu_hebergement">
+                    <div id="titre">
+                        <h3>Trouver votre hébergement pour des vacances de rêve</h3>
+                    </div>
+                    <div id="lieu">
+                        <h4>En plein centre ville ou en pleine nature</h4>
+                    </div>
+            </div>
+            <form method="POST" action="traitement.php">
+                <div id="bloc_recherche">
+                    <p><i class="fas fa-map-marker-alt" id="gps"></i></p>
+                    <p><input type="search" name="recherche" value="Yaoundé, Cameroun" id="recherche" /></p>
+                    <input type="submit" name="envoyer" value="Recherche" id="envoyer" />
+                </div>
+            </form >
+            <div id="filtres">
+                <div id="texte_filtre"><h4>Filtres</h4></div>
+                <nav>
+                    <div id="liste_filtre">
+                        <ul>
+                           <li><i class="fas fa-money-bill-wave" id="icone1"></i><span id="economique">Economique</span></li>
+                           <li><i class="fas fa-child" id="icone2"></i><span id="familial">Familial</span></li>
+                           <li><i class="fas fa-heart" id="icone3"></i><span id="romantique">Romantique</span></li>
+                           <li><i class="fas fa-dog" id="icone4"></i><span id="animal">Animaux autorisés</span></li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+                 
+            </div>
+            <div id="info"><!--information supplementaire-->
+                    <div><i class="fas fa-info" id="logoinfo"></i></div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+
+            <!-- <div id="texte_log">
+                    <p><i class="fas fa-info" id="icone_info" id="icone_attention"></i></p>
+                    <p id="logement"><h4>Plus de 500 logements sont disponibles dans cette ville</h4></p>
+                    
+            </div> -->
+            
+        
+            <section>
+                <article>
+                    <div id="bloc_gauche">
+                        <h3 id="hebergement">Hébergement à Yaoundé</h3>
+                        <div id="conteneur"> <!-- conteneur de toutes les images -->
+                            <div class="hebergement1">
+                                <div id="image1"></div>
+                                <div class="block">
+                                    <h4 id="titre1">Auberge la cannebière</h4>
+                                    <p id="sous_titre1">Nuit à partir de <span id="prix1">25£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="hebergement1">
+                                <div id="image2"></div>
+                                <div class="block">
+                                    <h4 id="titre2">Hôtel du port</h4>
+                                    <p id="sous_titre2">Nuit à partir de <span id="prix2">52£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="hebergement1">
+                                <div id="image3"></div>
+                                <div class="block">
+                                    <h4 id="titre3">Hôtel les mouettes</h4>
+                                    <p id="sous_titre3">Nuit à partir de <span id="prix3">35£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="hebergement1">
+                                <div id="image4"></div>
+                                <div class="block">
+                                    <h4 id="titre4">Auberge la cannebière</h4>
+                                    <p id="sous_titre4">Nuit à partir de <span id="prix4">41£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i><i class="far fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="hebergement1">
+                                <div id="image5"></div>
+                                <div class="block">
+                                    <h4 id="titre5">Auberge le panier</h4>
+                                    <p id="sous_titre5">Nuit à partir de <span id="prix5">100£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="hebergement1">
+                                <div id="image6"></div>
+                                <div class="block">
+                                    <h4 id="titre6">Hôtel chez amina</h4>
+                                    <p id="sous_titre6">Nuit à partir de <span id="prix6">57£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <p id="afficher_plus">Afficher plus</p>
+                    </div>
+                    
+                </article>
+                <aside>
+                    <div id="bloc_droite">
+                        <div id="populaire_bloc">
+                            <h3 id="populaire">Les plus populaires</h3>
+                            <p><span class="icone_populaire"><i class="fas fa-sort-amount-up"></i></span></p>
+                        </div>
+                        <div id="conteneur2">
+                            <div class="hebergement2">
+                                <div id="photo1"></div>
+                                <div class="block2">
+                                    <h4 id="titre1">Hôtel le soleil du matin</h4>
+                                    <p id="sous_titre1">Nuit à partir de <span id="prix1">128£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="hebergement2">
+                                <div id="photo2"></div>
+                                <div class="block2">
+                                    <h4 id="titre2">Au coeur de l'eau chambres d'hôtes</h4>
+                                    <p id="sous_titre2">Nuit à partir de <span id="prix2">71£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="hebergement2">
+                                <div id="photo3"></div>
+                                <div class="block2">
+                                    <h4 id="titre2">Hôtel tout bleu et blanc</h4>
+                                    <p id="sous_titre2">Nuit à partir de <span id="prix2">68£</span></p>
+                                    <p><span class="star1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star2"><i class="far fa-star"></i></span></p>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </aside>
+            </section>
+            <div><h3 id="activite_marseille">Activités à Marseille</h3></div>
+            <div id="dernier_bloc">
+                <div id="conteneur3"> <!-- contient tous les blocks -->
+                    <div class="grand_block">
+                        <div id="picture1"></div>
+                        <div class="texte1">
+                            <h4 id="vieux_port">Vieux port</h4>
+                        </div>
+                    </div>
+                    <div class="grand_block">
+                        <div id="block_one">
+                            <div id="picture2"></div>
+                            <div class="texte2">
+                                <h4 id="fort_pomegues">Fort de pomègues</h4>
+                            </div>
+                        </div>
+                        <div id="block_two">
+                            <div id="picture3"></div>
+                            <div class="texte2">
+                                <h4 id="iles">Îles du Frioul</h4>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="grand_block">
+                        <div id="picture4"></div>
+                        <div class="texte1">
+                            <h4 id="parc_national">Parc National des calanques</h4>
+                        </div>                    
+                    </div>
+                    <div class="grand_block">
+                        <div id="block_one">
+                            <div id="picture5"></div>
+                            <div class="texte2">
+                                <h4 id="notre_dame">Notre-dame-de-la-Garde</h4>
+                            </div>
+                        </div>
+                        <div id="block_two">
+                            <div id="picture6"></div>
+                            <div class="texte2">
+                                <h4 id="parc_longchamp">Parc longchamp</h4>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer>
+             <div id="bas_page">
+                <div id="conteneur_global">
+                    <div class="conteneur_bloc">
+                        <div id="apropos"><h4>A propos</h4></div>
+                        <div class="block4">
+                            <h5>Fonctionnement du site</h5>
+                            <h5>Condition générales de vente</h5>
+                            <h5>Données et confidentialité</h5>
+                         </div>
+                    </div>
+                    <div class="conteneur_bloc">
+                        <div id="nos_hebe"><h4>Nos hébergements</h4></div>
+                        <div class="block4">
+                            <h5>Charte qualité</h5>
+                            <h5>Soumettre votre hôtel</h5>
+                        </div>
+                    </div>
+                    <div class="conteneur_bloc">
+                        <div id="assistance"><h4>Assistance</h4></div>
+                        <div class="block4">
+                            <h5>Centre d'aide</h5>
+                            <h5>Nous contacter</h5>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </footer>
+    </body>
+</html>
